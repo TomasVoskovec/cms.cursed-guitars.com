@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slider_images",
+  "info": {
+    "singularName": "slider-image",
+    "pluralName": "slider-images",
+    "displayName": "Slider image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "navigationLink": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::navigation-link.navigation-link"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

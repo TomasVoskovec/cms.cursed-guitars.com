@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_links",
+  "info": {
+    "singularName": "navigation-link",
+    "pluralName": "navigation-links",
+    "displayName": "Navigation link",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "navigatesTo": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

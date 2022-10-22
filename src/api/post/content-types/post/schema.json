@@ -44,6 +44,11 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "order": {
+      "type": "integer",
+      "default": -1,
+      "required": true
     }
   }
 }
